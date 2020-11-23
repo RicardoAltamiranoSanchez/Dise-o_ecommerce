@@ -18,9 +18,9 @@ body {
 
 main {
     width: 100%;
-    padding: 10px;
+    padding: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .contenedor__todo {
@@ -40,7 +40,7 @@ main {
 }
 
 .caja__trasera div {
-    margin: 100px 30px;
+    margin: 100px 40px;
     color: white;
     transition: all 500ms;
 }
@@ -79,7 +79,7 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
-    max-width: 345px;
+    max-width: 300px;
     position: relative;
     top: -185px;
     left: 20px;
@@ -91,7 +91,7 @@ main {
     padding: 80px 20px;
     background: #fff;
     position: absolute;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .contenedor__login-register form h2 {
@@ -103,7 +103,7 @@ main {
 
 .contenedor__login-register form input {
     width: 100%;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 10px;
     border: none;
     background: #f2f2f2;
@@ -129,22 +129,4 @@ main {
 
 .formulario__register {
     display: none;
-}
-
-
-/*REsponsibe */
-
-@media screen and(max-width: 850px) {
-    main {
-        margin-top: 50px;
-    }
-    .caja__trasera {
-        max-width: 350px;
-        flex-direction: column;
-        margin: auto;
-    }
-    .caja__trasera div {
-        margin: 0px;
-        position: absolute;
-    }
 }
