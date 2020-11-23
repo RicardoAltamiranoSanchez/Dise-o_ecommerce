@@ -142,7 +142,7 @@
 }
 
 .box3 .background-hover {
-    background: linear-gradient(to bottom, rgb(9, 255, 0), rgb(0, 102, 255));
+    background: linear-gradient(to bottom, rgb(255, 51, 0), rgb(0, 255, 242));
     top: -170px;
     left: 500px;
 }
@@ -151,7 +151,7 @@
 /*caja 4*/
 
 .box4 .icon {
-    color: hotpink;
+    color: rgb(255, 105, 105);
 }
 
 .box4 .background-hover {
@@ -162,7 +162,7 @@
 /*caja 5*/
 
 .box5 .icon {
-    color: deeppink;
+    color: rgb(255, 231, 20);
 }
 
 .box5 .background-hover {
@@ -173,11 +173,11 @@
 /*caja 6*/
 
 .box6 .icon {
-    color: chocolate;
+    color: rgb(30, 183, 210);
 }
 
 .box6 .background-hover {
-    background: linear-gradient(to bottom, rgb(0, 119, 255), rgb(0, 225, 255));
+    background: linear-gradient(to bottom, rgb(212, 0, 255), rgb(4, 0, 255));
     top: 170px;
     left: 500px;
 }
