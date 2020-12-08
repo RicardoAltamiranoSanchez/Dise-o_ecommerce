@@ -10,7 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #131313
+    background: #00e2b1
 }
 
 .container {
@@ -28,13 +28,13 @@ body {
     width: 300;
     height: 400px;
     margin: 40px;
-    background: #232323;
+    background: #0025a0;
     border-radius: 20px;
     transform-style: preserve-3d;
 }
 
 .container .box::before {
-    content: 'Nke';
+    content: 'Tienda';
     position: absolute;
     top: 20px;
     left: 20px;
@@ -47,7 +47,7 @@ body {
 }
 
 .container .box::after {
-    content: 'SHOES';
+    content: '3B';
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -137,7 +137,7 @@ body {
 
 .container .box:nth-child(1) .circle,
 .container .box:nth-child(1) .buy {
-    background: #f73797;
+    background: #004257;
 }
 
 .container .box:nth-child(2) .circle,
