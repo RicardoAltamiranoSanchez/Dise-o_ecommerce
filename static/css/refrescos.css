@@ -10,7 +10,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #00e2b1
 }
 
 .container {
@@ -137,7 +136,7 @@ body {
 
 .container .box:nth-child(1) .circle,
 .container .box:nth-child(1) .buy {
-    background: #004257;
+    background: #ffff;
 }
 
 .container .box:nth-child(2) .circle,
